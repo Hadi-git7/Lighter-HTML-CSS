@@ -9,14 +9,19 @@
 .container {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to right, #93C572 70%, #C8EBB1 30%);
+    background: linear-gradient(to right, #fca311 70%, #14213D 30%);
     position: relative;
     overflow: hidden;
 }
 .wave {
     position: absolute;
-    top: 0;
-    right: 30%;
+    top:30%;
+    right: 29%;
+}
+.logo{
+    margin-right: 50px;
+    width:360px;
+    height: 335px;
 }
 nav {
     width: 90%;
@@ -38,7 +43,7 @@ nav ul a{
     padding: 0.3rem 1.3rem;
     font-size: 17px;
     font-weight: bold;
-    color: #494234;
+    color: #14213D;
     position: relative;
     z-index: 1;
 }
@@ -50,7 +55,7 @@ nav ul a::after{
     top:0;
     left:0px;
     border-radius: 20px;
-    background-color: #C8EBB1;
+    background-color: #d3d3d3;
     z-index: -1;
     transition: 0.5s;
 }
@@ -68,13 +73,17 @@ nav ul a:hover:after{
 .image-pista ,.main-text{
     flex-basis: 50%;
 }
+.Bluelighter img{
+    width:700px;
+    height: 300px;
+}
 .image-pista img{
     width: 100%;
 }
 .main-content h1 {
     font-size: 60px;
     letter-spacing: 1px;
-    color: #494234;
+    color: #000000;
 }
 .main-content p{
     margin-top: 10px;
@@ -88,7 +97,7 @@ nav ul a:hover:after{
     font-size: 18px;
     padding: 0.5rem 2.5rem 0.5rem 1rem;
     border-radius: 0 50% 50% 0;
-    background-color: #494234;
+    background-color: #14213D;
     color: white;
     cursor: pointer;
 }
@@ -124,7 +133,8 @@ nav ul a:hover:after{
     transition: 0.5s;
 }
 .image:hover{
-    background-color: rgba(73,66,52,0.7);
+    background-color: #fca311;
+    transform: translateX(-30px);
 }
 .box .inner-box{
     margin: 1.5rem 0 0 1rem;
@@ -132,6 +142,10 @@ nav ul a:hover:after{
 .box .inner-box p{
     font-size: 14px;
     font-weight: 500;
+    color : #fca311
+}
+.inner-box{
+    color : #d3d3d3
 }
 .social-links{
     position: absolute;
@@ -145,19 +159,20 @@ nav ul a:hover:after{
     position: absolute;
     top:42%;
     left: -150px;
-    background-color: #494234;
+    background-color: #d3d3d3;
 }
 .social-links i{
     margin-left: 10px;
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #93C572;
+    background-color: #d3d3d3;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
 }
 .social-links i:hover{
-    transform: translateY(-5px);
+    transform: translateY(-15px);
+    background-color: #fca311;
 }

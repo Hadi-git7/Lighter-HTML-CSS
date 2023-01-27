@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
 integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 
 <body>
     <div class="container">
         <div class="wave">
-            <img src="bg.png" alt="">
+            <img src="blue-bgg.png" alt="">
         </div>
 
         <nav>
@@ -24,9 +26,11 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Types</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            <img src="logo.png" alt="">
+            <img src="newlogo.png" alt="" class="logo">
+           
+            
         </nav>
 
         <div class="main-content">
@@ -34,14 +38,16 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
             <div class="image-pista">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img3.png" alt=""></div>    
+                        <div class="swiper-slide"><img src="clipper-removebg-preview.png" alt=""></div>    
+                        <div class="swiper-slide"><img src="zippo-removebg-preview.png" alt=""></div>
+                        <div class="swiper-slide Bluelighter"><img src="Bluelighter.png" alt=""></div>
+                        <div class="swiper-slide"><img src="lighterr.png" alt=""></div>
+                        <div class="swiper-slide"><img src="imageedit_6_4332657581.png" alt=""></div>
                     </div> 
                 </div>
             </div>
             <div class="main-text">
-                <h1>The Pistachios</h1>
+                <img src="bluelogo.png" alt="" >
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.adipisicing elit.</p>
                 <button>Know More</button>
             </div>
@@ -50,16 +56,16 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
         <div class="right">
             <div class="box">
                 <div class="image">
-                    <img src="img4.png" alt="">
+                    <img src="safe.png" alt="">
                 </div>
                 <div class="inner-box">
-                    <h3>100% Organic</h3>
+                    <h3>100% Safe</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
             <div class="box">
                 <div class="image">
-                    <img src="img5.png" alt="">
+                    <img src="Notexpensive.png" alt="">
                 </div>
                 <div class="inner-box">
                     <h3>Not Expensive</h3>
@@ -68,10 +74,10 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
             </div>
             <div class="box">
                 <div class="image">
-                    <img src="img6.png" alt="">
+                    <img src="refil.png" alt="">
                 </div>
                 <div class="inner-box">
-                    <h3>Super Healthy</h3>
+                    <h3>Refillable lighters </h3>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
@@ -93,6 +99,17 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
           loop: true,
         });
       </script>
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+      <script>
+       type="text/javascript"
+        $(document).ready(function(){
+        $(".swiper-wrapper").slick({
+        autoplay:true,
+        dots:true,
+        speed:1000,
+})
+});</script>
 </body>
 
 </html>
